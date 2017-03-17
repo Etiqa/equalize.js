@@ -25,8 +25,8 @@ This advanced usage is for dynamic instances where equalize is ran after element
 Equalize the .parent's child element. See @larsbo's <a href="http://jsfiddle.net/4QTNP/3/">example</a>.
 <pre>$('.parent').equalize({children: 'p'}); // equalize height of paragraphs within .parent</pre>
 
-## MULTI-ELEMENT EXAMPLE
-Equalize specific elements.
+## Multi-element
+Equalize specific elements, it allows each option parameters.
 
 $('.elements').equalize();
 
